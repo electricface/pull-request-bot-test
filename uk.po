@@ -1,0 +1,2061 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Maggie Liu <maggie.liufei@gmail.com>, 2016
+# Marck Hrin <marck741@gmail.com>, 2017
+# Yevhenii Miziev <zmekinski@yahoo.com>, 2017
+# Yuri Chornoivan <yurchor@ukr.net>, 2018
+# Максим Назаренко <mnaz261295@gmail.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Deepin Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-10 16:46+0800\n"
+"PO-Revision-Date: 2018-10-12 05:14+0000\n"
+"Last-Translator: zubr139\n"
+"Language-Team: Ukrainian (http://www.transifex.com/linuxdeepin/deepin-desktop-environment/language/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: ../../accounts/checkers/password.go:54
+msgid "Please enter a password not less than 8 characters"
+msgstr "Пароль має бути не менше 8 символів"
+
+#: ../../accounts/checkers/password.go:56
+msgid ""
+"The password must contain English letters (case-sensitive), numbers or "
+"special symbols (~!@#$%^&*()[]{}\\|/?,.<>)"
+msgstr "Пароль повинен містити англійські літери (чутливі до регістру), цифри або спеціальні символи(~!@#$%^&*()[]{}\\|/?,.<>)"
+
+#: ../../accounts/checkers/username.go:59
+msgid "Username can not be empty."
+msgstr "Ім'я користувача не може бути пустим."
+
+#: ../../accounts/checkers/username.go:61
+msgid "Username must comprise a~z, 0~9, - or _."
+msgstr "Ім‘я користувача має включати в себе a~z, 0~9, - або _."
+
+#: ../../accounts/checkers/username.go:63
+msgid "The first character must be in lower case."
+msgstr "Перший символ має бути у нижньому регістрі."
+
+#: ../../accounts/checkers/username.go:65
+msgid "The username exists."
+msgstr "Таке ім'я користувача вже існує."
+
+#: ../../accounts/checkers/username.go:67
+msgid "The username has been used by system."
+msgstr "Це ім'я користувача вже використовувалося в системі."
+
+#: ../../accounts/checkers/username.go:69
+msgid "The username's length exceeds the limit"
+msgstr "Ім’я користувача задовге"
+
+#: ../../appearance/scale.go:49
+msgid "Display scaling"
+msgstr "Маштабування дисплею"
+
+#: ../../appearance/scale.go:50
+msgid "Setting display scaling"
+msgstr "Налаштування масштабування зображення"
+
+#: ../../appearance/scale.go:86
+msgid "Set successfully"
+msgstr "Успішно встановлено"
+
+#: ../../appearance/scale.go:87
+msgid "View by logging out after set display scaling"
+msgstr "Перегляд шляхом виходу з системи після масштабування екрану"
+
+#: ../../bluetooth/bluez_profile.go:29
+msgid "Serial port"
+msgstr "Послідовний порт"
+
+#: ../../bluetooth/bluez_profile.go:30
+msgid "Dial-Up networking"
+msgstr "Віддалений доступ до мережі"
+
+#: ../../bluetooth/bluez_profile.go:31
+msgid "Hands-Free device"
+msgstr "Пристрій \"вільні руки\""
+
+#: ../../bluetooth/bluez_profile.go:32
+msgid "Hands-Free voice gateway"
+msgstr "Голосовий шлюз для Hands-Free"
+
+#: ../../bluetooth/bluez_profile.go:33
+msgid "Headset voice gateway"
+msgstr "Голосовий шлюз гарнітури"
+
+#: ../../bluetooth/bluez_profile.go:34
+msgid "Object push"
+msgstr "Вимкнути пуш-сповіщення"
+
+#: ../../bluetooth/bluez_profile.go:35
+msgid "File transfer"
+msgstr "Передавання файлів"
+
+#: ../../bluetooth/bluez_profile.go:36
+msgid "Synchronization"
+msgstr "Синхронізація"
+
+#: ../../bluetooth/bluez_profile.go:37
+msgid "Phone book access"
+msgstr "Доступ до телефонної книги"
+
+#: ../../bluetooth/bluez_profile.go:38
+msgid "Phone book access client"
+msgstr "Клієнт для доступу до телефонної книги"
+
+#: ../../bluetooth/bluez_profile.go:39
+msgid "Message access"
+msgstr "Доступ до повідомлень"
+
+#: ../../bluetooth/bluez_profile.go:40
+msgid "Message notification"
+msgstr "Сповіщення про повідомлення"
+
+#: ../../bluetooth/utils_notify.go:52 ../../network/dev_test.go:116
+#: ../../network/dev_test.go:132 ../../network/utils_notify.go:107
+msgid "Connected"
+msgstr "Підключено"
+
+#: ../../bluetooth/utils_notify.go:55 ../../network/dev_test.go:120
+#: ../../network/dev_test.go:123 ../../network/dev_test.go:126
+#: ../../network/dev_test.go:135 ../../network/dev_test.go:138
+#: ../../network/utils_notify.go:80 ../../network/utils_notify.go:84
+#: ../../network/utils_notify.go:88 ../../network/utils_notify.go:92
+#: ../../network/utils_notify.go:110 ../../network/utils_notify.go:113
+#: ../../network/utils_notify.go:202
+msgid "Disconnected"
+msgstr "Відключено"
+
+#: ../../bluetooth/utils_notify.go:59
+msgid "Make sure %q is turned on and in range"
+msgstr "Переконайтеся, що %q увімкнений і знаходиться у межах досяжності "
+
+#: ../../bluetooth/utils_notify.go:64
+msgid "Failed to connect %q, pairing failed"
+msgstr "Помилка підключення до %q, пара не створена"
+
+#: ../../bluetooth/utils_notify.go:69
+msgid "Bluetooth connection failed"
+msgstr "Збій підключення з Bluetooth"
+
+#: ../../dock/app_entry_menu.go:101
+msgid "_Open"
+msgstr "_Відкрити"
+
+#: ../../dock/app_entry_menu.go:108
+msgid "_Close All"
+msgstr "_Закрити все"
+
+#: ../../dock/app_entry_menu.go:117
+msgid "_Force Quit"
+msgstr "_Примусово Вийти"
+
+#: ../../dock/app_entry_menu.go:124
+msgid "_Dock"
+msgstr "_Платформа"
+
+#: ../../dock/app_entry_menu.go:131
+msgid "_Undock"
+msgstr "_Забрати з панелі"
+
+#: ../../dock/app_entry_menu.go:138
+msgid "_All windows"
+msgstr "_Усі вікна"
+
+#: ../../housekeeping/init.go:90
+msgid "Insufficient disk space, please clean up in time!"
+msgstr "Недостатньо вільного місця на диску, будь-ласка, прибирайте вчасно!"
+
+#: ../../keybinding/shortcuts/id_name_map.go:28
+msgid "Launcher"
+msgstr "Запускач"
+
+#: ../../keybinding/shortcuts/id_name_map.go:29
+msgid "Terminal"
+msgstr "Термінал"
+
+#: ../../keybinding/shortcuts/id_name_map.go:30
+msgid "Deepin Screen Recorder"
+msgstr "Deepin Screen Recorder"
+
+#: ../../keybinding/shortcuts/id_name_map.go:31
+msgid "Lock screen"
+msgstr "Екран блокування"
+
+#: ../../keybinding/shortcuts/id_name_map.go:32
+msgid "Show/Hide the dock"
+msgstr "Показати/Приховати панель завдань"
+
+#: ../../keybinding/shortcuts/id_name_map.go:33
+msgid "Shutdown Interface"
+msgstr "Інтерфейс завершення роботи"
+
+#: ../../keybinding/shortcuts/id_name_map.go:34
+msgid "Terminal Quake Window"
+msgstr "Terminal Quake Window"
+
+#: ../../keybinding/shortcuts/id_name_map.go:35
+msgid "Screenshot"
+msgstr "Знімок екрана"
+
+#: ../../keybinding/shortcuts/id_name_map.go:36
+msgid "Full screenshot"
+msgstr "Повний знімок екрана"
+
+#: ../../keybinding/shortcuts/id_name_map.go:37
+msgid "Window screenshot"
+msgstr "Знімок екрана вікна"
+
+#: ../../keybinding/shortcuts/id_name_map.go:38
+msgid "Delay screenshot"
+msgstr "Скріншот затримки"
+
+#: ../../keybinding/shortcuts/id_name_map.go:39
+msgid "File manager"
+msgstr "Файловий менеджер"
+
+#: ../../keybinding/shortcuts/id_name_map.go:40
+msgid "Disable Touchpad"
+msgstr "Відключити тачпад"
+
+#: ../../keybinding/shortcuts/id_name_map.go:41
+msgid "Switch window effects"
+msgstr "Перемикнути ефекти вікон"
+
+#: ../../keybinding/shortcuts/id_name_map.go:42
+msgid "Fast Screen Off"
+msgstr "Швидкий Screen Off"
+
+#: ../../keybinding/shortcuts/id_name_map.go:43
+msgid "Deepin System Monitor"
+msgstr "Системний Монітор Deepin"
+
+#: ../../keybinding/shortcuts/id_name_map.go:44
+msgid "Deepin Picker"
+msgstr "Deepin Picker"
+
+#: ../../keybinding/shortcuts/id_name_map.go:51
+msgid "Switch Layout"
+msgstr "Переключити компонування"
+
+#: ../../keybinding/shortcuts/id_name_map.go:70
+msgid "Switch to left workspace"
+msgstr "Переключитися на ліву робочу область"
+
+#: ../../keybinding/shortcuts/id_name_map.go:71
+msgid "Switch to right workspace"
+msgstr "Переключитись на правий робочий простір"
+
+#: ../../keybinding/shortcuts/id_name_map.go:72
+msgid "Switch to upper workspace"
+msgstr "Переключитись на верхнє робоче місце"
+
+#: ../../keybinding/shortcuts/id_name_map.go:73
+msgid "Switch to lower workspace"
+msgstr "Перейти в нижчій робочій простір"
+
+#: ../../keybinding/shortcuts/id_name_map.go:75
+msgid "Switch similar windows"
+msgstr "Замінити схожі вікна"
+
+#: ../../keybinding/shortcuts/id_name_map.go:76
+msgid "Switch similar windows in reverse"
+msgstr "Переключатися між подібними вікнами у зворотному порядку"
+
+#: ../../keybinding/shortcuts/id_name_map.go:77
+msgid "Switch windows"
+msgstr "Перехід між вікнами"
+
+#: ../../keybinding/shortcuts/id_name_map.go:78
+msgid "Switch windows in reverse"
+msgstr "Переключення між вікнами у зворотному порядку"
+
+#: ../../keybinding/shortcuts/id_name_map.go:89
+msgid "Show desktop"
+msgstr "Показати робочий стіл"
+
+#: ../../keybinding/shortcuts/id_name_map.go:98
+msgid "Maximize window"
+msgstr "Розгорнути вікно"
+
+#: ../../keybinding/shortcuts/id_name_map.go:99
+msgid "Restore window"
+msgstr "Відновити вікно"
+
+#: ../../keybinding/shortcuts/id_name_map.go:101
+msgid "Minimize window"
+msgstr "Згорнути вікно"
+
+#: ../../keybinding/shortcuts/id_name_map.go:102
+msgid "Close window"
+msgstr "Закрити вікно"
+
+#: ../../keybinding/shortcuts/id_name_map.go:103
+msgid "Move window"
+msgstr "Перемістити вікно"
+
+#: ../../keybinding/shortcuts/id_name_map.go:104
+msgid "Resize window"
+msgstr "Змінити розмір вікна"
+
+#: ../../keybinding/shortcuts/id_name_map.go:119
+msgid "Move to left workspace"
+msgstr "Переміститись на лівий робочий простір"
+
+#: ../../keybinding/shortcuts/id_name_map.go:120
+msgid "Move to right workspace"
+msgstr "Перемістити до правого робочого простору"
+
+#: ../../keybinding/shortcuts/id_name_map.go:121
+msgid "Move to upper workspace"
+msgstr "Перейти до верхнього робочого місця"
+
+#: ../../keybinding/shortcuts/id_name_map.go:122
+msgid "Move to lower workspace"
+msgstr "Перейти на нижнє робоче місце"
+
+#: ../../keybinding/shortcuts/id_name_map.go:144
+msgid "Display windows of all workspaces"
+msgstr "Відображати вікна всіх робочих областей"
+
+#: ../../keybinding/shortcuts/id_name_map.go:145
+msgid "Display windows of current workspace"
+msgstr "Показати вікна поточного робочого простору"
+
+#: ../../keybinding/shortcuts/id_name_map.go:146
+msgid "Display workspace"
+msgstr "Показати робоче місце"
+
+#: ../../langselector/locale.go:60
+msgid "Authentication is required to switch language"
+msgstr "Аутентифікація потрібна для перемикання мови"
+
+#: ../../langselector/locale.go:350
+msgid "System language failed to change, please try later"
+msgstr "Системна мова не змінилася, спробуйте ще раз пізніше."
+
+#: ../../langselector/locale.go:374
+msgid ""
+"System language is being changed with an installation of lacked language "
+"packages, please wait..."
+msgstr "Мова системи змінюється зі встановленням мовних пакетів, яких бракувало, будь ласка, зачекайте..."
+
+#: ../../langselector/locale.go:377
+msgid "System language is being changed, please wait..."
+msgstr "Мову системи було змінено. Будь ласка, зачекайте..."
+
+#: ../../langselector/locale.go:425
+msgid "System language has been changed, please log in again after logged out"
+msgstr "Мова системи була змінена , будь ласка, увійдіть знову після виходу з системи."
+
+#: ../../lastore/check_source.go:51
+msgid "Restore"
+msgstr "Відновити"
+
+#: ../../lastore/check_source.go:62 ../../lastore/lastore.go:241
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: ../../lastore/lastore.go:233
+msgid "Retry"
+msgstr "Спробувати ще раз"
+
+#: ../../lastore/notify.go:82
+msgid "%q installed successfully."
+msgstr "%q інстальовано успішно."
+
+#: ../../lastore/notify.go:85
+msgid "%q failed to install."
+msgstr "Не вдалося встановити %q."
+
+#: ../../lastore/notify.go:93
+msgid "%q removed successfully."
+msgstr "%q успішно видалено."
+
+#: ../../lastore/notify.go:95
+msgid "%q failed to remove."
+msgstr "Не вдалося видалити %q."
+
+#: ../../lastore/notify.go:102
+msgid ""
+"In order to prevent automatic shutdown, please plug in for normal update."
+msgstr "Підключіть, щоб запобігти автоматичному вимкненню й належним чином здійснити оновлення."
+
+#: ../../lastore/notify.go:107
+msgid "Package cache wiped"
+msgstr "Очищення кешу пакету"
+
+#: ../../lastore/notify.go:112
+msgid ""
+"Your system source has been modified, please restore to official source for "
+"your normal use"
+msgstr "Ваше джерело системи було змінено, будь ласка, відновіть офіційне джерело для нормального використання"
+
+#: ../../launcher/manager_uninstall.go:69
+msgid "%q removed successfully"
+msgstr "%q успішно видалено"
+
+#: ../../launcher/manager_uninstall.go:71
+msgid "Failed to uninstall %q"
+msgstr "Не вдалося встановити %q"
+
+#: ../../network/agent.go:396
+msgid "Password required to connect %q"
+msgstr "Пароль, необхідний для підключення %q"
+
+#: ../../network/manager_active.go:317
+#: ../../network/nm_setting_wireless.go:211
+msgid "A (5 GHz)"
+msgstr "A (5 GHz)"
+
+#: ../../network/manager_active.go:319
+#: ../../network/nm_setting_wireless.go:212
+msgid "BG (2.4 GHz)"
+msgstr "BG (2,4 ГГц)"
+
+#: ../../network/manager_active.go:321 ../../network/nm_setting_802_1x.go:146
+#: ../../network/nm_setting_wireless.go:210
+msgid "Automatic"
+msgstr "Автоматично"
+
+#: ../../network/manager_active.go:332 ../../network/manager_active.go:337
+#: ../../network/nm_setting_virtual_key.go:189
+#: ../../network/nm_setting_virtual_key.go:196
+#: ../../network/nm_setting_virtual_key.go:226
+#: ../../network/nm_setting_vpn_openvpn.go:250
+#: ../../network/nm_setting_vpn_vpnc.go:161
+msgid "None"
+msgstr "Нічого"
+
+#: ../../network/manager_active.go:339
+#: ../../network/nm_setting_virtual_key.go:190
+#: ../../network/nm_setting_virtual_key.go:197
+msgid "WEP 40/128-bit Key"
+msgstr "Ключ WEP 40/128-біт"
+
+#: ../../network/manager_active.go:341
+#: ../../network/nm_setting_virtual_key.go:191
+#: ../../network/nm_setting_virtual_key.go:198
+msgid "WPA/WPA2 Personal"
+msgstr "Режим WPA/WPA2 Personal"
+
+#: ../../network/manager_active.go:349 ../../network/nm_setting_802_1x.go:41
+#: ../../network/nm_setting_802_1x.go:122
+#: ../../network/nm_setting_802_1x.go:130
+msgid "TLS"
+msgstr "TLS"
+
+#: ../../network/manager_active.go:351 ../../network/nm_setting_802_1x.go:40
+#: ../../network/nm_setting_802_1x.go:123
+msgid "MD5"
+msgstr "MD5"
+
+#: ../../network/manager_active.go:353 ../../network/nm_setting_802_1x.go:131
+#: ../../network/nm_setting_wireless_security.go:82
+msgid "LEAP"
+msgstr "ІНТЕРВАЛ"
+
+#: ../../network/manager_active.go:355 ../../network/nm_setting_802_1x.go:124
+#: ../../network/nm_setting_802_1x.go:132
+msgid "FAST"
+msgstr "ШВИДКО"
+
+#: ../../network/manager_active.go:357 ../../network/nm_setting_802_1x.go:125
+#: ../../network/nm_setting_802_1x.go:133
+msgid "Tunneled TLS"
+msgstr "Тунельований TLS"
+
+#: ../../network/manager_active.go:359 ../../network/nm_setting_802_1x.go:126
+#: ../../network/nm_setting_802_1x.go:134
+msgid "Protected EAP"
+msgstr "Захищений EAP"
+
+#: ../../network/manager_connection.go:282 ../../network/nm_custom_type.go:228
+msgid "Wired Connection"
+msgstr "Дротове підключення"
+
+#: ../../network/nm_custom_type.go:226
+msgid "Connection"
+msgstr "Підключення"
+
+#: ../../network/nm_custom_type.go:230
+msgid "Wireless Connection"
+msgstr "Бездротове підключення"
+
+#: ../../network/nm_custom_type.go:232
+msgid "Wireless Ad-Hoc"
+msgstr " Бездротова Ad-Hoc мережа"
+
+#: ../../network/nm_custom_type.go:234
+msgid "Wireless Ap-Hotspot"
+msgstr "Бездротова точка доступу"
+
+#: ../../network/nm_custom_type.go:236
+msgid "PPPoE Connection"
+msgstr "З'єднання по PPPoE"
+
+#: ../../network/nm_custom_type.go:238
+msgid "Mobile Connection"
+msgstr "Мобільний зв'язок"
+
+#: ../../network/nm_custom_type.go:240
+msgid "Mobile GSM Connection"
+msgstr "Мобільний зв‘язок GSM"
+
+#: ../../network/nm_custom_type.go:242
+msgid "Mobile CDMA Connection"
+msgstr "Мобільний зв'язок CDMA"
+
+#: ../../network/nm_custom_type.go:244
+msgid "VPN Connection"
+msgstr "Підключення віртуальної приватної мережі (VPN)"
+
+#: ../../network/nm_custom_type.go:246
+msgid "VPN L2TP"
+msgstr "VPN L2TP"
+
+#: ../../network/nm_custom_type.go:248
+msgid "VPN OpenConnect"
+msgstr "VPN OpenConnect"
+
+#: ../../network/nm_custom_type.go:250
+msgid "VPN OpenVPN"
+msgstr "VPN OpenVPN"
+
+#: ../../network/nm_custom_type.go:252
+msgid "VPN PPTP"
+msgstr "VPN PPTP"
+
+#: ../../network/nm_custom_type.go:254
+msgid "VPN StrongSwan"
+msgstr "VPN StrongSwan"
+
+#: ../../network/nm_custom_type.go:256
+msgid "VPN VPNC"
+msgstr "VPN VPNC"
+
+#: ../../network/nm_setting_802_1x.go:34
+msgid "PAP"
+msgstr "PAP"
+
+#: ../../network/nm_setting_802_1x.go:35
+msgid "CHAP"
+msgstr "CHAP"
+
+#: ../../network/nm_setting_802_1x.go:36
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: ../../network/nm_setting_802_1x.go:37
+msgid "MSCHAPV2"
+msgstr "MSCHAPV2"
+
+#: ../../network/nm_setting_802_1x.go:38
+msgid "GTC"
+msgstr "GTC"
+
+#: ../../network/nm_setting_802_1x.go:39
+msgid "OTP"
+msgstr "OTP"
+
+#: ../../network/nm_setting_802_1x.go:139
+#: ../../network/nm_setting_ip4_config.go:42
+#: ../../network/nm_setting_vpn_vpnc.go:150
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#: ../../network/nm_setting_802_1x.go:140
+msgid "Anonymous"
+msgstr "Анонімно"
+
+#: ../../network/nm_setting_802_1x.go:141
+msgid "Authenticated"
+msgstr "Ідентифіковано"
+
+#: ../../network/nm_setting_802_1x.go:142
+msgid "Both"
+msgstr "Обоє"
+
+#: ../../network/nm_setting_802_1x.go:147
+msgid "Version 0"
+msgstr "Версія 0"
+
+#: ../../network/nm_setting_802_1x.go:148
+msgid "Version 1"
+msgstr "Версія 1"
+
+#: ../../network/nm_setting_beans_gen.go:37
+msgid "General"
+msgstr "Загальне"
+
+#: ../../network/nm_setting_beans_gen.go:39
+msgid "Name"
+msgstr "Назва"
+
+#: ../../network/nm_setting_beans_gen.go:40
+msgid "Automatically connect"
+msgstr "Приєднатися автоматично"
+
+#: ../../network/nm_setting_beans_gen.go:41
+msgid "For All Users"
+msgstr "Для всіх користувачів"
+
+#: ../../network/nm_setting_beans_gen.go:47
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: ../../network/nm_setting_beans_gen.go:49
+#: ../../network/nm_setting_beans_gen.go:135
+msgid "Device MAC Addr"
+msgstr "Пристрій MAC Addr"
+
+#: ../../network/nm_setting_beans_gen.go:50
+#: ../../network/nm_setting_beans_gen.go:136
+msgid "Cloned MAC Addr"
+msgstr "Адреса клонованого MAC"
+
+#: ../../network/nm_setting_beans_gen.go:51
+#: ../../network/nm_setting_beans_gen.go:137
+msgid "Customize MTU"
+msgstr "Налаштувати MTU"
+
+#: ../../network/nm_setting_beans_gen.go:52
+#: ../../network/nm_setting_beans_gen.go:138
+#: ../../network/nm_setting_beans_gen.go:361
+msgid "MTU"
+msgstr "MTU"
+
+#: ../../network/nm_setting_beans_gen.go:58
+#: ../../network/nm_setting_beans_gen.go:80
+#: ../../network/nm_setting_beans_gen.go:94
+msgid "Mobile"
+msgstr "Мобільний"
+
+#: ../../network/nm_setting_beans_gen.go:60
+msgid "Country or region"
+msgstr "Країна або регіон"
+
+#: ../../network/nm_setting_beans_gen.go:61
+msgid "Provider"
+msgstr "Постачальник"
+
+#: ../../network/nm_setting_beans_gen.go:62
+msgid "Plan"
+msgstr "План"
+
+#: ../../network/nm_setting_beans_gen.go:63
+msgid "Service Type"
+msgstr "Тип служби"
+
+#: ../../network/nm_setting_beans_gen.go:64
+#: ../../network/nm_setting_beans_gen.go:65
+#: ../../network/nm_setting_beans_gen.go:82
+msgid "APN"
+msgstr "Номер точки доступу (APN)"
+
+#: ../../network/nm_setting_beans_gen.go:66
+#: ../../network/nm_setting_beans_gen.go:72
+#: ../../network/nm_setting_beans_gen.go:83
+#: ../../network/nm_setting_beans_gen.go:96
+msgid "Number"
+msgstr "Номер"
+
+#: ../../network/nm_setting_beans_gen.go:67
+#: ../../network/nm_setting_beans_gen.go:73
+#: ../../network/nm_setting_beans_gen.go:84
+#: ../../network/nm_setting_beans_gen.go:97
+#: ../../network/nm_setting_beans_gen.go:146
+#: ../../network/nm_setting_beans_gen.go:178
+#: ../../network/nm_setting_beans_gen.go:192
+#: ../../network/nm_setting_beans_gen.go:206
+#: ../../network/nm_setting_beans_gen.go:213
+#: ../../network/nm_setting_beans_gen.go:221
+#: ../../network/nm_setting_beans_gen.go:237
+#: ../../network/nm_setting_beans_gen.go:299
+#: ../../network/nm_setting_beans_gen.go:344
+#: ../../network/nm_setting_beans_gen.go:374
+#: ../../network/nm_setting_beans_gen.go:407
+#: ../../network/nm_setting_beans_gen.go:422
+msgid "Username"
+msgstr "Ім'я користувача"
+
+#: ../../network/nm_setting_beans_gen.go:68
+#: ../../network/nm_setting_beans_gen.go:74
+#: ../../network/nm_setting_beans_gen.go:85
+#: ../../network/nm_setting_beans_gen.go:98
+#: ../../network/nm_setting_beans_gen.go:109
+#: ../../network/nm_setting_beans_gen.go:113
+#: ../../network/nm_setting_beans_gen.go:148
+#: ../../network/nm_setting_beans_gen.go:180
+#: ../../network/nm_setting_beans_gen.go:194
+#: ../../network/nm_setting_beans_gen.go:208
+#: ../../network/nm_setting_beans_gen.go:216
+#: ../../network/nm_setting_beans_gen.go:239
+#: ../../network/nm_setting_beans_gen.go:301
+#: ../../network/nm_setting_beans_gen.go:345
+#: ../../network/nm_setting_beans_gen.go:376
+#: ../../network/nm_setting_beans_gen.go:410
+#: ../../network/nm_setting_vpn_openvpn.go:114
+msgid "Password"
+msgstr "Пароль"
+
+#: ../../network/nm_setting_beans_gen.go:69
+#: ../../network/nm_setting_beans_gen.go:86
+msgid "Network ID"
+msgstr "Мережевий ID"
+
+#: ../../network/nm_setting_beans_gen.go:70
+#: ../../network/nm_setting_beans_gen.go:87
+msgid "Home Network Only"
+msgstr "Лише домашня мережа"
+
+#: ../../network/nm_setting_beans_gen.go:71
+#: ../../network/nm_setting_beans_gen.go:88
+msgid "PIN"
+msgstr "PIN-код"
+
+#: ../../network/nm_setting_beans_gen.go:104
+#: ../../network/nm_setting_beans_gen.go:107
+#: ../../network/nm_setting_beans_gen.go:262
+#: ../../network/nm_setting_beans_gen.go:386
+msgid "Security"
+msgstr "Безпека"
+
+#: ../../network/nm_setting_beans_gen.go:106
+msgid "Security Required"
+msgstr "Необхідний рівень безпеки"
+
+#: ../../network/nm_setting_beans_gen.go:108
+msgid "Key"
+msgstr "Клавіша"
+
+#: ../../network/nm_setting_beans_gen.go:110
+msgid "EAP Auth"
+msgstr "EAP-аутентифікація"
+
+#: ../../network/nm_setting_beans_gen.go:111
+msgid "Identity"
+msgstr "Ідентичність"
+
+#: ../../network/nm_setting_beans_gen.go:112
+#: ../../network/nm_setting_beans_gen.go:115
+#: ../../network/nm_setting_beans_gen.go:179
+#: ../../network/nm_setting_beans_gen.go:193
+#: ../../network/nm_setting_beans_gen.go:198
+#: ../../network/nm_setting_beans_gen.go:207
+#: ../../network/nm_setting_beans_gen.go:222
+#: ../../network/nm_setting_beans_gen.go:225
+#: ../../network/nm_setting_beans_gen.go:238
+#: ../../network/nm_setting_beans_gen.go:300
+#: ../../network/nm_setting_beans_gen.go:305
+#: ../../network/nm_setting_beans_gen.go:375
+#: ../../network/nm_setting_beans_gen.go:423
+#: ../../network/nm_setting_beans_gen.go:426
+msgid "Ask for Pwd"
+msgstr "Запитати пароль"
+
+#: ../../network/nm_setting_beans_gen.go:114
+msgid "Anonymous ID"
+msgstr "Анонімний ідентифікатор"
+
+#: ../../network/nm_setting_beans_gen.go:116
+#: ../../network/nm_setting_beans_gen.go:199
+#: ../../network/nm_setting_beans_gen.go:306
+msgid "Private Pwd"
+msgstr "Приватний пароль"
+
+#: ../../network/nm_setting_beans_gen.go:117
+#: ../../network/nm_setting_beans_gen.go:188
+#: ../../network/nm_setting_beans_gen.go:197
+#: ../../network/nm_setting_beans_gen.go:215
+#: ../../network/nm_setting_beans_gen.go:288
+#: ../../network/nm_setting_beans_gen.go:304
+#: ../../network/nm_setting_beans_gen.go:409
+#: ../../network/nm_setting_vpn_strongswan.go:78
+msgid "Private Key"
+msgstr "Закритий ключ"
+
+#: ../../network/nm_setting_beans_gen.go:118
+#: ../../network/nm_setting_beans_gen.go:183
+#: ../../network/nm_setting_beans_gen.go:195
+#: ../../network/nm_setting_beans_gen.go:211
+#: ../../network/nm_setting_beans_gen.go:283
+#: ../../network/nm_setting_beans_gen.go:302
+#: ../../network/nm_setting_beans_gen.go:405
+msgid "CA Cert"
+msgstr "Сертифікат CA"
+
+#: ../../network/nm_setting_beans_gen.go:119
+#: ../../network/nm_setting_beans_gen.go:187
+#: ../../network/nm_setting_beans_gen.go:196
+#: ../../network/nm_setting_beans_gen.go:214
+#: ../../network/nm_setting_beans_gen.go:287
+#: ../../network/nm_setting_beans_gen.go:303
+#: ../../network/nm_setting_beans_gen.go:408
+msgid "User Cert"
+msgstr "Сертифікат користувача"
+
+#: ../../network/nm_setting_beans_gen.go:120
+msgid "Provisioning"
+msgstr "Підготовка"
+
+#: ../../network/nm_setting_beans_gen.go:121
+msgid "PAC file"
+msgstr "PAC-файл"
+
+#: ../../network/nm_setting_beans_gen.go:122
+msgid "PEAP Version"
+msgstr "PEAP-версія"
+
+#: ../../network/nm_setting_beans_gen.go:123
+msgid "Inner Auth"
+msgstr "Внутрішня аутентифікація"
+
+#: ../../network/nm_setting_beans_gen.go:129
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: ../../network/nm_setting_beans_gen.go:131
+msgid "SSID"
+msgstr "SSID"
+
+#: ../../network/nm_setting_beans_gen.go:132
+msgid "Mode"
+msgstr "Режим"
+
+#: ../../network/nm_setting_beans_gen.go:133
+msgid "Band"
+msgstr "Група"
+
+#: ../../network/nm_setting_beans_gen.go:134
+msgid "Channel"
+msgstr "Канал"
+
+#: ../../network/nm_setting_beans_gen.go:144
+msgid "PPPoE"
+msgstr "PPPoE"
+
+#: ../../network/nm_setting_beans_gen.go:147
+msgid "Service"
+msgstr "Служба"
+
+#: ../../network/nm_setting_beans_gen.go:154
+msgid "PPP"
+msgstr "Протокол PPP"
+
+#: ../../network/nm_setting_beans_gen.go:156
+#: ../../network/nm_setting_beans_gen.go:261
+#: ../../network/nm_setting_beans_gen.go:385
+msgid "Use MPPE"
+msgstr "Використати MPPE"
+
+#: ../../network/nm_setting_beans_gen.go:157
+msgid "128-bit MPPE"
+msgstr "128-бітне MPPE-шифрування"
+
+#: ../../network/nm_setting_beans_gen.go:158
+#: ../../network/nm_setting_beans_gen.go:263
+#: ../../network/nm_setting_beans_gen.go:387
+msgid "Stateful MPPE"
+msgstr "MPPE з контролем стану підключень"
+
+#: ../../network/nm_setting_beans_gen.go:159
+#: ../../network/nm_setting_beans_gen.go:264
+#: ../../network/nm_setting_beans_gen.go:388
+msgid "Refuse EAP Authentication"
+msgstr "Відмовитися від аутентифікації EAP"
+
+#: ../../network/nm_setting_beans_gen.go:160
+#: ../../network/nm_setting_beans_gen.go:265
+#: ../../network/nm_setting_beans_gen.go:389
+msgid "Refuse PAP Authentication"
+msgstr "Відмовити у PAP Автентифікації"
+
+#: ../../network/nm_setting_beans_gen.go:161
+#: ../../network/nm_setting_beans_gen.go:266
+#: ../../network/nm_setting_beans_gen.go:390
+msgid "Refuse CHAP Authentication"
+msgstr "Відмовитися від CHAP-аутентифікації"
+
+#: ../../network/nm_setting_beans_gen.go:162
+#: ../../network/nm_setting_beans_gen.go:267
+#: ../../network/nm_setting_beans_gen.go:391
+msgid "Refuse MSCHAP Authentication"
+msgstr "Відмовитись від MSCHAP-аутентифікації"
+
+#: ../../network/nm_setting_beans_gen.go:163
+#: ../../network/nm_setting_beans_gen.go:268
+#: ../../network/nm_setting_beans_gen.go:392
+msgid "Refuse MSCHAPv2 Authentication"
+msgstr "Відхилити автентифікацію MSCHAPv2"
+
+#: ../../network/nm_setting_beans_gen.go:164
+#: ../../network/nm_setting_beans_gen.go:269
+#: ../../network/nm_setting_beans_gen.go:393
+msgid "No BSD Data Compression"
+msgstr "Немає стиснення даних BSD"
+
+#: ../../network/nm_setting_beans_gen.go:165
+#: ../../network/nm_setting_beans_gen.go:270
+#: ../../network/nm_setting_beans_gen.go:394
+msgid "No Deflate Data Compression"
+msgstr "Стиснення даних під час завантаження не здійснюється"
+
+#: ../../network/nm_setting_beans_gen.go:166
+#: ../../network/nm_setting_beans_gen.go:271
+#: ../../network/nm_setting_beans_gen.go:395
+msgid "No TCP Header Compression"
+msgstr "Немає Скискання Заголовку TCP"
+
+#: ../../network/nm_setting_beans_gen.go:167
+#: ../../network/nm_setting_beans_gen.go:274
+#: ../../network/nm_setting_beans_gen.go:396
+msgid "Send PPP Echo Packets"
+msgstr "Надіслати Ехо Пакети PPP"
+
+#: ../../network/nm_setting_beans_gen.go:173
+#: ../../network/nm_setting_beans_gen.go:234
+#: ../../network/nm_setting_beans_gen.go:280
+#: ../../network/nm_setting_beans_gen.go:295
+#: ../../network/nm_setting_beans_gen.go:371
+#: ../../network/nm_setting_beans_gen.go:402
+#: ../../network/nm_setting_beans_gen.go:419
+msgid "VPN"
+msgstr "VPN"
+
+#: ../../network/nm_setting_beans_gen.go:176
+msgid "Need VPN Plugin"
+msgstr "Потрібен плагін VPN"
+
+#: ../../network/nm_setting_beans_gen.go:177
+#: ../../network/nm_setting_beans_gen.go:182
+#: ../../network/nm_setting_beans_gen.go:190
+#: ../../network/nm_setting_beans_gen.go:205
+#: ../../network/nm_setting_beans_gen.go:210
+#: ../../network/nm_setting_beans_gen.go:220
+#: ../../network/nm_setting_beans_gen.go:236
+#: ../../network/nm_setting_beans_gen.go:282
+#: ../../network/nm_setting_beans_gen.go:297
+#: ../../network/nm_setting_beans_gen.go:373
+#: ../../network/nm_setting_beans_gen.go:404
+#: ../../network/nm_setting_beans_gen.go:421
+#: ../../network/nm_setting_beans_gen.go:456
+#: ../../network/nm_setting_beans_gen.go:470
+msgid "Gateway"
+msgstr "Шлюз"
+
+#: ../../network/nm_setting_beans_gen.go:181
+#: ../../network/nm_setting_beans_gen.go:209
+#: ../../network/nm_setting_beans_gen.go:240
+#: ../../network/nm_setting_beans_gen.go:377
+msgid "NT Domain"
+msgstr "Домен NT"
+
+#: ../../network/nm_setting_beans_gen.go:184
+#: ../../network/nm_setting_beans_gen.go:284
+msgid "Proxy"
+msgstr "Проксі"
+
+#: ../../network/nm_setting_beans_gen.go:185
+#: ../../network/nm_setting_beans_gen.go:285
+msgid "Allow Cisco Secure Desktop Trojan"
+msgstr "Дозволити Cisco Secure Desktop Trojan"
+
+#: ../../network/nm_setting_beans_gen.go:186
+#: ../../network/nm_setting_beans_gen.go:286
+msgid "CSD Script"
+msgstr "Сценарій CSD"
+
+#: ../../network/nm_setting_beans_gen.go:189
+#: ../../network/nm_setting_beans_gen.go:289
+msgid "Use FSID for Key Passphrase"
+msgstr "Скористайтесь FSID для вводу ключової фрази"
+
+#: ../../network/nm_setting_beans_gen.go:191
+#: ../../network/nm_setting_beans_gen.go:212
+#: ../../network/nm_setting_beans_gen.go:298
+#: ../../network/nm_setting_beans_gen.go:406
+msgid "Auth Type"
+msgstr "Тип аутентифікації"
+
+#: ../../network/nm_setting_beans_gen.go:200
+#: ../../network/nm_setting_beans_gen.go:307
+#: ../../network/nm_setting_vpn_openvpn.go:116
+msgid "Static Key"
+msgstr "Статичний ключ"
+
+#: ../../network/nm_setting_beans_gen.go:201
+#: ../../network/nm_setting_beans_gen.go:308
+#: ../../network/nm_setting_beans_gen.go:331
+msgid "Customize Key Direction"
+msgstr "Налаштувати клавішу управління"
+
+#: ../../network/nm_setting_beans_gen.go:202
+#: ../../network/nm_setting_beans_gen.go:309
+#: ../../network/nm_setting_beans_gen.go:332
+msgid "Key Direction"
+msgstr "Управління клавішами"
+
+#: ../../network/nm_setting_beans_gen.go:203
+#: ../../network/nm_setting_beans_gen.go:310
+msgid "Remote IP"
+msgstr "Віддалений IP"
+
+#: ../../network/nm_setting_beans_gen.go:204
+#: ../../network/nm_setting_beans_gen.go:311
+msgid "Local IP"
+msgstr "Локальний IP"
+
+#: ../../network/nm_setting_beans_gen.go:217
+#: ../../network/nm_setting_beans_gen.go:411
+msgid "Request an Inner IP Address"
+msgstr "Запит внутрішньої IP-адреси"
+
+#: ../../network/nm_setting_beans_gen.go:218
+#: ../../network/nm_setting_beans_gen.go:412
+msgid "Enforce UDP Encapsulation"
+msgstr "Забезпечити інкапсуляцію UDP"
+
+#: ../../network/nm_setting_beans_gen.go:219
+#: ../../network/nm_setting_beans_gen.go:413
+msgid "Use IP Compression"
+msgstr "Використовуйте стиснення IP"
+
+#: ../../network/nm_setting_beans_gen.go:223
+#: ../../network/nm_setting_beans_gen.go:424
+msgid "User Pwd"
+msgstr "Пароль користувача"
+
+#: ../../network/nm_setting_beans_gen.go:224
+#: ../../network/nm_setting_beans_gen.go:249
+#: ../../network/nm_setting_beans_gen.go:425
+msgid "Group Name"
+msgstr "Ім’я групи"
+
+#: ../../network/nm_setting_beans_gen.go:226
+#: ../../network/nm_setting_beans_gen.go:427
+msgid "Group Pwd"
+msgstr "Груповий пароль"
+
+#: ../../network/nm_setting_beans_gen.go:227
+#: ../../network/nm_setting_beans_gen.go:428
+msgid "Use Hybrid Authentication"
+msgstr "Використати гібридну автентифікацію"
+
+#: ../../network/nm_setting_beans_gen.go:228
+#: ../../network/nm_setting_beans_gen.go:429
+msgid "CA File"
+msgstr "Файл CA"
+
+#: ../../network/nm_setting_beans_gen.go:246
+msgid "VPN IPsec"
+msgstr "VPN IPsec"
+
+#: ../../network/nm_setting_beans_gen.go:248
+msgid "Enable IPsec"
+msgstr "Увімкнути IPsec"
+
+#: ../../network/nm_setting_beans_gen.go:250
+msgid "Group ID"
+msgstr "Груповий ID"
+
+#: ../../network/nm_setting_beans_gen.go:251
+#: ../../network/nm_setting_vpn_strongswan.go:82
+msgid "Pre-Shared Key"
+msgstr "Спільний ключ"
+
+#: ../../network/nm_setting_beans_gen.go:252
+msgid "Phase1 Algorithms"
+msgstr "Алгоритми Фази1"
+
+#: ../../network/nm_setting_beans_gen.go:253
+msgid "Phase2 Algorithms"
+msgstr "Алгоритми Фази2"
+
+#: ../../network/nm_setting_beans_gen.go:259
+#: ../../network/nm_setting_beans_gen.go:383
+msgid "VPN PPP"
+msgstr "VPN PPP"
+
+#: ../../network/nm_setting_beans_gen.go:272
+msgid "No Protocol Field Compression"
+msgstr "Немає стиснення полів протоколу"
+
+#: ../../network/nm_setting_beans_gen.go:273
+msgid "No Address/Control Compression"
+msgstr "Без адреси/Стискання керування"
+
+#: ../../network/nm_setting_beans_gen.go:317
+msgid "VPN Security"
+msgstr "Безпека VPN"
+
+#: ../../network/nm_setting_beans_gen.go:319
+msgid "Cipher"
+msgstr "Шифр"
+
+#: ../../network/nm_setting_beans_gen.go:320
+msgid "HMAC Auth"
+msgstr "HMAC Auth"
+
+#: ../../network/nm_setting_beans_gen.go:326
+msgid "VPN TLS Authentication"
+msgstr "VPN TLS Автентифікація"
+
+#: ../../network/nm_setting_beans_gen.go:328
+msgid "Subject Match"
+msgstr "Збіг теми"
+
+#: ../../network/nm_setting_beans_gen.go:329
+msgid "Remote Cert Type"
+msgstr "Тип віддаленого сертифіката"
+
+#: ../../network/nm_setting_beans_gen.go:330
+msgid "Key File"
+msgstr "Файл ключа"
+
+#: ../../network/nm_setting_beans_gen.go:338
+msgid "VPN Proxies"
+msgstr "VPN проксі"
+
+#: ../../network/nm_setting_beans_gen.go:340
+msgid "Proxy Type"
+msgstr "Тип проксі"
+
+#: ../../network/nm_setting_beans_gen.go:341
+msgid "Server IP"
+msgstr "IP сервера"
+
+#: ../../network/nm_setting_beans_gen.go:342
+msgid "Port"
+msgstr "Порт"
+
+#: ../../network/nm_setting_beans_gen.go:343
+msgid "Retry Indefinitely When Failed"
+msgstr "У разі збою повторювати спроби нескінченно"
+
+#: ../../network/nm_setting_beans_gen.go:351
+#: ../../network/nm_setting_beans_gen.go:435
+msgid "VPN Advanced"
+msgstr "VPN Прогресивний"
+
+#: ../../network/nm_setting_beans_gen.go:353
+msgid "Customize Gateway Port"
+msgstr "Налаштувати порт шлюзу"
+
+#: ../../network/nm_setting_beans_gen.go:354
+msgid "Gateway Port"
+msgstr "Порт Входу"
+
+#: ../../network/nm_setting_beans_gen.go:355
+msgid "Customize Renegotiation Interval"
+msgstr "Налаштувати інтервал перегляду"
+
+#: ../../network/nm_setting_beans_gen.go:356
+msgid "Renegotiation Interval"
+msgstr "Інтервал повторного узгодження"
+
+#: ../../network/nm_setting_beans_gen.go:357
+msgid "Use LZO data compression"
+msgstr "Використати стиснення файлів LZO"
+
+#: ../../network/nm_setting_beans_gen.go:358
+msgid "Use TCP connection"
+msgstr "Використайте зв‘язок TCP"
+
+#: ../../network/nm_setting_beans_gen.go:359
+msgid "Use TAP device"
+msgstr "Використати пристрій TAP"
+
+#: ../../network/nm_setting_beans_gen.go:360
+msgid "Customize Tunnel MTU"
+msgstr "Налаштувати тонель MTU"
+
+#: ../../network/nm_setting_beans_gen.go:362
+msgid "Customize UDP Fragment Size"
+msgstr "Налаштувати розмір фрагменту UDP"
+
+#: ../../network/nm_setting_beans_gen.go:363
+msgid "UDP Fragment Size"
+msgstr "Розмір фрагменту UDP"
+
+#: ../../network/nm_setting_beans_gen.go:364
+msgid "Restrict Tunnel TCP MSS"
+msgstr "Обмежити Tunnel TCP MSS"
+
+#: ../../network/nm_setting_beans_gen.go:365
+msgid "Randomize Remote Hosts"
+msgstr "Розмістити у випадковому порядку віддалені хости"
+
+#: ../../network/nm_setting_beans_gen.go:437
+msgid "Domain"
+msgstr "Домен"
+
+#: ../../network/nm_setting_beans_gen.go:438
+msgid "Vendor"
+msgstr "Розробник"
+
+#: ../../network/nm_setting_beans_gen.go:439
+msgid "Version"
+msgstr "Версія"
+
+#: ../../network/nm_setting_beans_gen.go:440
+msgid "Encryption"
+msgstr "Шифрування"
+
+#: ../../network/nm_setting_beans_gen.go:441
+msgid "NAT Traversal"
+msgstr "NAT Traversal"
+
+#: ../../network/nm_setting_beans_gen.go:442
+msgid "IKE DH Group"
+msgstr "Група обробки даних IKE"
+
+#: ../../network/nm_setting_beans_gen.go:443
+msgid "Forward Secrecy"
+msgstr "Розповсюдити конфіденційність"
+
+#: ../../network/nm_setting_beans_gen.go:444
+msgid "Local Port"
+msgstr "Локальний порт"
+
+#: ../../network/nm_setting_beans_gen.go:445
+msgid "Disable Dead Peer Detection"
+msgstr "Деактивувати функцію виявлення однорангових пристроїв"
+
+#: ../../network/nm_setting_beans_gen.go:451
+msgid "IPv4"
+msgstr "IPv4"
+
+#: ../../network/nm_setting_beans_gen.go:453
+#: ../../network/nm_setting_beans_gen.go:467
+msgid "Method"
+msgstr "Метод"
+
+#: ../../network/nm_setting_beans_gen.go:454
+#: ../../network/nm_setting_beans_gen.go:468
+msgid "IP Address"
+msgstr "IP-адреса"
+
+#: ../../network/nm_setting_beans_gen.go:455
+msgid "Netmask"
+msgstr "Маска мережі"
+
+#: ../../network/nm_setting_beans_gen.go:457
+#: ../../network/nm_setting_beans_gen.go:471
+msgid "Primary DNS"
+msgstr "Первинний DNS"
+
+#: ../../network/nm_setting_beans_gen.go:458
+#: ../../network/nm_setting_beans_gen.go:472
+msgid "Secondary DNS"
+msgstr "Додаткова зона DNS"
+
+#: ../../network/nm_setting_beans_gen.go:459
+#: ../../network/nm_setting_beans_gen.go:473
+msgid "Only applied in corresponding resources"
+msgstr "Використовується тільки у відповідних ресурсах"
+
+#: ../../network/nm_setting_beans_gen.go:465
+msgid "IPv6"
+msgstr "IPv6"
+
+#: ../../network/nm_setting_beans_gen.go:469
+msgid "Prefix"
+msgstr "Префікс"
+
+#: ../../network/nm_setting_gsm.go:155 ../../network/nm_setting_gsm.go:157
+#: ../../network/nm_setting_virtual_key.go:150
+msgid "Custom"
+msgstr "Користувацький"
+
+#: ../../network/nm_setting_gsm.go:165
+#: ../../network/nm_setting_virtual_key.go:159
+#: ../../network/nm_setting_vpn_openvpn.go:229
+#: ../../network/nm_setting_vpn_openvpn.go:249
+#: ../../network/nm_setting_vpn_openvpn.go:280
+#: ../../network/nm_setting_wireless.go:36
+#: ../../network/nm_setting_wireless.go:85
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: ../../network/nm_setting_ip4_config.go:38
+#: ../../network/nm_setting_ip6_config.go:38
+msgid "Auto"
+msgstr "Автоматично"
+
+#: ../../network/nm_setting_ip4_config.go:39
+#: ../../network/nm_setting_ip6_config.go:40
+msgid "Link-Local Only"
+msgstr "Лише адреси Link-Lokal "
+
+#: ../../network/nm_setting_ip4_config.go:40
+#: ../../network/nm_setting_ip6_config.go:41
+msgid "Manual"
+msgstr "Інструкція"
+
+#: ../../network/nm_setting_ip4_config.go:41
+#: ../../network/nm_setting_ip6_config.go:42
+#: ../../network/nm_setting_wireless_security.go:81
+msgid "Shared"
+msgstr "Поширено"
+
+#: ../../network/nm_setting_ip6_config.go:37
+msgid "Ignore"
+msgstr "Ігнорувати"
+
+#: ../../network/nm_setting_ip6_config.go:39
+msgid "DHCP"
+msgstr "DHCP"
+
+#: ../../network/nm_setting_virtual_key.go:164
+msgid "GSM (GPRS, UMTS)"
+msgstr "GSM (GPRS, UMTS)"
+
+#: ../../network/nm_setting_virtual_key.go:165
+msgid "CDMA (1xRTT, EVDO)"
+msgstr "CDMA (1xRTT, EVDO)"
+
+#: ../../network/nm_setting_virtual_key.go:172
+msgid "L2TP"
+msgstr "L2TP"
+
+#: ../../network/nm_setting_virtual_key.go:173
+msgid "PPTP"
+msgstr "PPTP"
+
+#: ../../network/nm_setting_virtual_key.go:174
+msgid "OpenConnect"
+msgstr "OpenConnect"
+
+#: ../../network/nm_setting_virtual_key.go:175
+msgid "OpenVPN"
+msgstr "OpenVPN"
+
+#: ../../network/nm_setting_virtual_key.go:176
+msgid "VPNC"
+msgstr "VPNC"
+
+#: ../../network/nm_setting_virtual_key.go:192
+msgid "WPA/WPA2 Enterprise"
+msgstr "Підприємство WPA/WPA2"
+
+#: ../../network/nm_setting_virtual_key.go:206
+#: ../../network/nm_setting_virtual_key.go:215
+msgid "All Available (default)"
+msgstr "Усі доступні (за замовчуванням)"
+
+#: ../../network/nm_setting_virtual_key.go:207
+#: ../../network/nm_setting_virtual_key.go:216
+msgid "128-bit (most secure)"
+msgstr "128-біт (найбезпечніший)"
+
+#: ../../network/nm_setting_virtual_key.go:208
+#: ../../network/nm_setting_virtual_key.go:217
+msgid "40-bit (less secure)"
+msgstr "40-бітна (менш безпечна)"
+
+#: ../../network/nm_setting_virtual_key.go:224
+msgid "Secure (default)"
+msgstr "Безпечний (за замовчуванням)"
+
+#: ../../network/nm_setting_virtual_key.go:225
+msgid "Weak"
+msgstr "Слабкий"
+
+#: ../../network/nm_setting_vpn_l2tp.go:37
+#: ../../network/nm_setting_vpn_openvpn.go:33
+#: ../../network/nm_setting_vpn_pptp.go:37
+#: ../../network/nm_setting_vpn_vpnc.go:35 ../../network/utils_dbus_nm.go:178
+msgid "Saved"
+msgstr "Збережено"
+
+#: ../../network/nm_setting_vpn_l2tp.go:38
+#: ../../network/nm_setting_vpn_openvpn.go:34
+#: ../../network/nm_setting_vpn_pptp.go:38
+#: ../../network/nm_setting_vpn_vpnc.go:37 ../../network/utils_dbus_nm.go:180
+msgid "Always Ask"
+msgstr "Завжди запитувати "
+
+#: ../../network/nm_setting_vpn_l2tp.go:39
+#: ../../network/nm_setting_vpn_openvpn.go:35
+#: ../../network/nm_setting_vpn_openvpn.go:331
+#: ../../network/nm_setting_vpn_pptp.go:39
+#: ../../network/nm_setting_vpn_vpnc.go:38 ../../network/utils_dbus_nm.go:181
+msgid "Not Required"
+msgstr "Не вимагається"
+
+#: ../../network/nm_setting_vpn_openvpn.go:113
+msgid "Certificates (TLS)"
+msgstr "Сертифікати (TLS)"
+
+#: ../../network/nm_setting_vpn_openvpn.go:115
+msgid "Certificates with Password (TLS)"
+msgstr "Сертифікати з паролем (TLS)"
+
+#: ../../network/nm_setting_vpn_openvpn.go:120
+#: ../../network/nm_setting_vpn_openvpn.go:286
+msgid "0"
+msgstr "0"
+
+#: ../../network/nm_setting_vpn_openvpn.go:121
+#: ../../network/nm_setting_vpn_openvpn.go:287
+msgid "1"
+msgstr "1"
+
+#: ../../network/nm_setting_vpn_openvpn.go:230
+msgid "DES-CBC"
+msgstr "DES-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:231
+msgid "RC2-CBC"
+msgstr "Метод шифрування RC2-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:232
+msgid "DES-EDE-CBC"
+msgstr "DES-EDE-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:233
+msgid "DES-EDE3-CBC"
+msgstr "Метод шифрування DES-EDE3-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:234
+msgid "DESX-CBC"
+msgstr "Стандарт шифрування даних DESX-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:235
+msgid "BF-CBC"
+msgstr "BF-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:236
+msgid "RC2-40-CBC"
+msgstr "Метод шифрування даних RC2-40-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:237
+msgid "CAST5-CBC"
+msgstr "CAST5-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:238
+msgid "RC2-64-CBC"
+msgstr "RC2-64-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:239
+msgid "AES-128-CBC"
+msgstr "AES-128-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:240
+msgid "AES-192-CBC"
+msgstr "Метод шифрування AES-192-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:241
+msgid "AES-256-CBC"
+msgstr "AES-256-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:242
+msgid "CAMELLIA-128-CBC"
+msgstr "CAMELLIA-128-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:243
+msgid "CAMELLIA-192-CBC"
+msgstr "CAMELLIA-192-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:244
+msgid "CAMELLIA-256-CBC"
+msgstr "Алгоритм шифрування CAMELLIA-256-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:245
+msgid "SEED-CBC"
+msgstr "SEED-CBC"
+
+#: ../../network/nm_setting_vpn_openvpn.go:251
+msgid "RSA MD-4"
+msgstr "RSA MD-4"
+
+#: ../../network/nm_setting_vpn_openvpn.go:252
+msgid "MD-5"
+msgstr "MD-5"
+
+#: ../../network/nm_setting_vpn_openvpn.go:253
+msgid "SHA-1"
+msgstr "SHA-1"
+
+#: ../../network/nm_setting_vpn_openvpn.go:254
+msgid "SHA-224"
+msgstr "SHA-224"
+
+#: ../../network/nm_setting_vpn_openvpn.go:255
+msgid "SHA-256"
+msgstr "SHA-256"
+
+#: ../../network/nm_setting_vpn_openvpn.go:256
+msgid "SHA-384"
+msgstr "SHA-384"
+
+#: ../../network/nm_setting_vpn_openvpn.go:257
+msgid "SHA-512"
+msgstr "SHA-512"
+
+#: ../../network/nm_setting_vpn_openvpn.go:258
+msgid "RIPEMD-160"
+msgstr "RIPEMD-160"
+
+#: ../../network/nm_setting_vpn_openvpn.go:281
+msgid "Client"
+msgstr "Клієнт"
+
+#: ../../network/nm_setting_vpn_openvpn.go:282
+msgid "Server"
+msgstr "Сервер"
+
+#: ../../network/nm_setting_vpn_openvpn.go:332
+msgid "HTTP"
+msgstr "HTTP"
+
+#: ../../network/nm_setting_vpn_openvpn.go:333
+msgid "SOCKS"
+msgstr "SOCKS-сервер"
+
+#: ../../network/nm_setting_vpn_strongswan.go:79
+msgid "SSH Agent"
+msgstr "SSH Агент"
+
+#: ../../network/nm_setting_vpn_strongswan.go:80
+msgid "Smartcard"
+msgstr "Смарт-карта"
+
+#: ../../network/nm_setting_vpn_strongswan.go:81
+msgid "EAP"
+msgstr "EAP"
+
+#: ../../network/nm_setting_vpn_vpnc.go:142
+msgid "Cisco (default)"
+msgstr "Cisco (за замовчуванням)"
+
+#: ../../network/nm_setting_vpn_vpnc.go:143
+msgid "Netscreen"
+msgstr "Мережевий екран"
+
+#: ../../network/nm_setting_vpn_vpnc.go:147
+msgid "NAT-T When Available (default)"
+msgstr "NAT-T, коли доступно (за замовчуванням)"
+
+#: ../../network/nm_setting_vpn_vpnc.go:148
+msgid "NAT-T Always"
+msgstr "Завжди NAT-T"
+
+#: ../../network/nm_setting_vpn_vpnc.go:149
+msgid "Cisco UDP"
+msgstr "Cisco UDP"
+
+#: ../../network/nm_setting_vpn_vpnc.go:154
+#: ../../network/nm_setting_vpn_vpnc.go:162
+msgid "DH Group 1"
+msgstr "Обробка даних Групи 1"
+
+#: ../../network/nm_setting_vpn_vpnc.go:155
+msgid "DH Group 2 (default)"
+msgstr "DH Group 2 (за промовчанням)"
+
+#: ../../network/nm_setting_vpn_vpnc.go:156
+#: ../../network/nm_setting_vpn_vpnc.go:164
+msgid "DH Group 5"
+msgstr "DH група 5"
+
+#: ../../network/nm_setting_vpn_vpnc.go:160
+msgid "Server (default)"
+msgstr "Сервер (за замовчуванням)"
+
+#: ../../network/nm_setting_vpn_vpnc.go:163
+msgid "DH Group 2"
+msgstr "Обробка даних Групи 2"
+
+#: ../../network/nm_setting_wireless.go:204
+msgid "Infrastructure"
+msgstr "Інфраструктура"
+
+#: ../../network/nm_setting_wireless.go:205
+msgid "Ad-Hoc"
+msgstr "Спеціальний"
+
+#: ../../network/nm_setting_wireless.go:206
+msgid "AP-Hotspot"
+msgstr "AP-точка доступу "
+
+#: ../../network/nm_setting_wireless_security.go:65
+msgid "WEP"
+msgstr "WEP"
+
+#: ../../network/nm_setting_wireless_security.go:66
+msgid "Dynamic WEP"
+msgstr "Динамічний WEP"
+
+#: ../../network/nm_setting_wireless_security.go:67
+msgid "Ad-Hoc WPA-PSK"
+msgstr "Ситуативний WPA-PSK"
+
+#: ../../network/nm_setting_wireless_security.go:68
+msgid "WPA-PSK Infrastructure"
+msgstr "Інфраструктура WPA-PSK"
+
+#: ../../network/nm_setting_wireless_security.go:69
+msgid "WPA Enterprise"
+msgstr "Режим WPA Enterprise"
+
+#: ../../network/nm_setting_wireless_security.go:73
+msgid "WEP40"
+msgstr "WEP40"
+
+#: ../../network/nm_setting_wireless_security.go:74
+msgid "WEP104"
+msgstr "WEP104"
+
+#: ../../network/nm_setting_wireless_security.go:75
+msgid "TKIP"
+msgstr "TKIP"
+
+#: ../../network/nm_setting_wireless_security.go:76
+msgid "CCMP"
+msgstr "CCMP"
+
+#: ../../network/nm_setting_wireless_security.go:80
+msgid "Open"
+msgstr "Відкрити"
+
+#: ../../network/state_handler.go:34
+msgid "Device state changed"
+msgstr "Стан пристрою змінено."
+
+#: ../../network/state_handler.go:35
+msgid "Device state changed, unknown reason"
+msgstr "Стан пристрою змінився з невідомої причини."
+
+#: ../../network/state_handler.go:36
+msgid "The device is now managed"
+msgstr "Пристрій зараз управляється"
+
+#: ../../network/state_handler.go:37
+msgid "The device is no longer managed"
+msgstr "Управління цим пристроєм більше не здійснюється."
+
+#: ../../network/state_handler.go:38
+msgid "The device has not been ready for configuration"
+msgstr "Пристрій не був готовий до конфігурації."
+
+#: ../../network/state_handler.go:39
+msgid ""
+"IP configuration could not be reserved (no available address, timeout, etc)"
+msgstr "Не вдалося зарезервувати IP-конфігурацію (немає доступної адреси, завершився час очікування тощо)."
+
+#: ../../network/state_handler.go:40
+msgid "The IP configuration is no longer valid"
+msgstr "IP-конфігурація більше недійсна."
+
+#: ../../network/state_handler.go:41
+msgid "Passwords were required but not provided"
+msgstr "Паролі вимагались, але не були надані."
+
+#: ../../network/state_handler.go:42
+msgid ""
+"The 802.1X supplicant disconnected from the access point or authentication "
+"server"
+msgstr "Запитувальний прилад 802.1x від'єднано від точки доступу або серверу аутентифікації."
+
+#: ../../network/state_handler.go:43
+msgid "Configuration of the 802.1X supplicant failed"
+msgstr "Не вдалося виконати конфігурацію запитуючого пристрою 802.1X."
+
+#: ../../network/state_handler.go:44
+msgid "The 802.1X supplicant quitted or failed unexpectedly"
+msgstr "Запитувальний пристрій 802.1X неочікувано вимкнувся або не відповідає."
+
+#: ../../network/state_handler.go:45
+msgid "The 802.1X supplicant took too long time to authenticate"
+msgstr "Запитувальний пристрій 802.1X надто довго очікував ідентифікації."
+
+#: ../../network/state_handler.go:46
+msgid "The PPP service failed to start within the allowed time"
+msgstr "Службу PPP не вдалося запустити протягом дозволеного часу."
+
+#: ../../network/state_handler.go:47
+msgid "The PPP service disconnected unexpectedly"
+msgstr "Службу PPP неочікувано відключено."
+
+#: ../../network/state_handler.go:48
+msgid "The PPP service quitted or failed unexpectedly"
+msgstr "Служба РРР раптово перестала працювати або дала збій."
+
+#: ../../network/state_handler.go:49
+msgid "The DHCP service failed to start within the allowed time"
+msgstr "Сервісу DHCP не вдалось запуститись у відведений час."
+
+#: ../../network/state_handler.go:50
+msgid "The DHCP service reported an unexpected error"
+msgstr "Служба DHCP повідомила про неочікувану помилку."
+
+#: ../../network/state_handler.go:51
+msgid "The DHCP service quitted or failed unexpectedly"
+msgstr "Служба DHCP припинила роботу або несподівано вийшла з ладу"
+
+#: ../../network/state_handler.go:52
+msgid "The shared connection service failed to start"
+msgstr "Не вдалося запустити сервіс загального доступу."
+
+#: ../../network/state_handler.go:53
+msgid "The shared connection service quitted or failed unexpectedly"
+msgstr "Сервіс загального доступу несподівано припинив роботу."
+
+#: ../../network/state_handler.go:54
+msgid "The AutoIP service failed to start"
+msgstr "Не вдалося запустити сервіс AutoIP."
+
+#: ../../network/state_handler.go:55
+msgid "The AutoIP service reported an unexpected error"
+msgstr "Служба AutoIP повідомила про неочікувану помилку."
+
+#: ../../network/state_handler.go:56
+msgid "The AutoIP service quitted or failed unexpectedly"
+msgstr "Служба AutoIP неочікувано вимкнулась або не відповідає."
+
+#: ../../network/state_handler.go:57
+msgid "Dialing failed due to busy lines"
+msgstr "Не вдалося здійснити набір, оскільки лінії зайняті."
+
+#: ../../network/state_handler.go:58
+msgid "Dialing failed due to no dial tone"
+msgstr "Не вдалося встановити з'єднання через відсутній гудок."
+
+#: ../../network/state_handler.go:59
+msgid "Dialing failed due to the carrier"
+msgstr "Не вдалося набрати номер з вини провайдера."
+
+#: ../../network/state_handler.go:60
+msgid "Dialing timed out"
+msgstr "Вийшов час набору."
+
+#: ../../network/state_handler.go:61
+msgid "Dialing failed"
+msgstr "Не вдалося встановити з'єднання."
+
+#: ../../network/state_handler.go:62
+msgid "Modem initialization failed"
+msgstr "Не вдалося запустити модем."
+
+#: ../../network/state_handler.go:63
+msgid "Failed to select the specified GSM APN"
+msgstr "Не вдалося вибрати визначений GSM APN."
+
+#: ../../network/state_handler.go:64
+msgid "No networks searched"
+msgstr "Не шукають жодних мереж"
+
+#: ../../network/state_handler.go:65
+msgid "Network registration was denied"
+msgstr "Реєстрацію мережі відхилено."
+
+#: ../../network/state_handler.go:66
+msgid "Network registration timed out"
+msgstr "Час очікування реєстрації в мережі минув."
+
+#: ../../network/state_handler.go:67
+msgid "Register to the requested GSM network failed"
+msgstr "Зареєструватися у запитуваній GSM-мережі не вдалося. "
+
+#: ../../network/state_handler.go:68
+msgid "PIN check failed"
+msgstr "Перевірити PIN-код не вдалося."
+
+#: ../../network/state_handler.go:69
+msgid "Necessary firmware for the device may be missed"
+msgstr "Необхідна для пристрою мікропрограма може бути втрачена."
+
+#: ../../network/state_handler.go:70
+msgid "The device was removed"
+msgstr "Пристрій було видалено."
+
+#: ../../network/state_handler.go:71
+msgid "NetworkManager went to sleep"
+msgstr "NetworkManager увійшов в режим сну"
+
+#: ../../network/state_handler.go:72
+msgid "The device's active connection was removed or disappeared"
+msgstr "Активний зв‘язок пристрою було видалено або він зник."
+
+#: ../../network/state_handler.go:73
+msgid "A user or client requested to disconnect"
+msgstr "Користувач або клієнт надіслав запит про відключення."
+
+#: ../../network/state_handler.go:74
+msgid "The device's carrier/link changed"
+msgstr "Носій/посилання приладу змінилися."
+
+#: ../../network/state_handler.go:75
+msgid "The device's existing connection was assumed"
+msgstr "Передбачалося існуюче підключення пристрою."
+
+#: ../../network/state_handler.go:76
+msgid "The 802.1x supplicant is now available"
+msgstr "Запитувальний прилад 802.1x тепер доступний."
+
+#: ../../network/state_handler.go:77
+msgid "The modem could not be found"
+msgstr "Не вдалося знайти модем."
+
+#: ../../network/state_handler.go:78
+msgid "The Bluetooth connection timed out or failed"
+msgstr "Час Bluetooth-з'єднання минув або з'єднатися не вдалося."
+
+#: ../../network/state_handler.go:79
+msgid "GSM Modem's SIM Card was not inserted"
+msgstr "У GSM-модемі відсутня SIM-картка."
+
+#: ../../network/state_handler.go:80
+msgid "GSM Modem's SIM PIN required"
+msgstr "Потрібен PIN-код SIM-картки GSM-модема."
+
+#: ../../network/state_handler.go:81
+msgid "GSM Modem's SIM PUK required"
+msgstr "Необхідо вказати PUK-код від GSM-модему."
+
+#: ../../network/state_handler.go:82
+msgid "SIM card error in GSM Modem"
+msgstr "Помилка SIM-картки у модемі GSM"
+
+#: ../../network/state_handler.go:83
+msgid "InfiniBand device does not support connected mode"
+msgstr "Пристрій InfiniBand не підтримує режим з'єднання."
+
+#: ../../network/state_handler.go:84
+msgid "A connection dependency failed"
+msgstr "Не вдалося встановити залежне з'єднання."
+
+#: ../../network/state_handler.go:85
+msgid "RFC 2684 Ethernet bridging error to ADSL"
+msgstr "Помилка містка до ADSL Ethernet RFC 2684"
+
+#: ../../network/state_handler.go:86
+msgid "ModemManager did not run or quitted unexpectedly"
+msgstr "МодемМенеджер не запустився, або несподівано припинив роботу."
+
+#: ../../network/state_handler.go:87
+msgid "The 802.11 Wi-Fi network could not be found"
+msgstr "Мережу Wi-Fi 802.11 не знайдено."
+
+#: ../../network/state_handler.go:88
+msgid "A secondary connection of the base connection failed"
+msgstr "Другорядне підключення на основі базового не вдалося."
+
+#: ../../network/state_handler.go:91
+msgid "DCB or FCoE setup failed"
+msgstr "Налаштувати DCB чи FCoE не вдалося."
+
+#: ../../network/state_handler.go:92
+msgid "Network teaming control failed"
+msgstr "Помилка об’єднання мережевих карт."
+
+#: ../../network/state_handler.go:93
+msgid "Modem failed to run or not available"
+msgstr "Модем не вдалося запустити, або він недоступний."
+
+#: ../../network/state_handler.go:94
+msgid "Modem now ready and available"
+msgstr "Модем вже готовий та доступний."
+
+#: ../../network/state_handler.go:95
+msgid "SIM PIN is incorrect"
+msgstr "Неправильний SIM PIN"
+
+#: ../../network/state_handler.go:96
+msgid "New connection activation is enqueuing"
+msgstr "Формується черга активації нового підключення."
+
+#: ../../network/state_handler.go:97
+msgid "Parent device changed"
+msgstr "Батьківський пристрій змінено."
+
+#: ../../network/state_handler.go:98
+msgid "Management status of parent device changed"
+msgstr "Стан керування основним пристроєм змінився."
+
+#: ../../network/state_handler.go:101
+msgid "Network cable is unplugged"
+msgstr "Мережевий кабель не підключено."
+
+#: ../../network/state_handler.go:102
+msgid "Please make sure SIM card has been inserted with mobile network signal"
+msgstr "Переконайтеся, будь ласка, що SIM-карта встановлена з сигналом мобільної мережі."
+
+#: ../../network/state_handler.go:103
+msgid ""
+"Please make sure a correct plan was selected without arrearage of SIM card"
+msgstr "Будь ласка, упевніться, що був обраний правильний тарифний план без заборгованості на SIM-картці."
+
+#: ../../network/state_handler.go:106
+msgid "Activate VPN connection failed, unknown reason"
+msgstr "Не вдалося активувати VPN-з'єднання, причина невідома."
+
+#: ../../network/state_handler.go:107
+msgid "Activate VPN connection failed"
+msgstr "Активувати VPN-з'єднання не вдалося."
+
+#: ../../network/state_handler.go:108
+msgid "The VPN connection changed state due to disconnection from users"
+msgstr "Зв‘язок VPN змінив стан через від‘єднання з боку користувачів."
+
+#: ../../network/state_handler.go:109
+msgid "The VPN connection changed state due to disconnection from devices"
+msgstr "Змінився стан підключення VPN через відключення від пристроїв."
+
+#: ../../network/state_handler.go:110
+msgid "VPN service stopped"
+msgstr "Сервіс VPN зупинено."
+
+#: ../../network/state_handler.go:111
+msgid "The IP config of VPN connection was invalid"
+msgstr "IP-конфігурація підключення VPN недійсна."
+
+#: ../../network/state_handler.go:112
+msgid "The connection attempt to VPN service timed out"
+msgstr "Час, відведений на спробу підключення до служби VPN, вичерпано."
+
+#: ../../network/state_handler.go:113
+msgid "The VPN service start timed out"
+msgstr "Вийшов час запуску служби VPN"
+
+#: ../../network/state_handler.go:114
+msgid "The VPN service failed to start"
+msgstr "Службу VPN не вдалося запустити."
+
+#: ../../network/state_handler.go:115
+msgid "Necessary password for the VPN connection was not provided"
+msgstr "Необхідний для VPN пароль не було надано."
+
+#: ../../network/state_handler.go:116
+msgid "Authentication to VPN server failed"
+msgstr "Аутентифікація при доступі до VPN-серверу не вдалася."
+
+#: ../../network/state_handler.go:117
+msgid "The connection was deleted from settings"
+msgstr "З'єднання було видалено з налаштувань."
+
+#: ../../network/state_handler.go:225
+msgid "Try enabling hotspot"
+msgstr "Спробуйте увімкнути точку доступу"
+
+#: ../../network/state_handler.go:227
+msgid "Try connecting %q"
+msgstr "Спробуйте підключити %q"
+
+#: ../../network/state_handler.go:235
+msgid "Hotspot share enabled"
+msgstr "Точка доступу включена"
+
+#: ../../network/state_handler.go:237
+msgid "%q connected"
+msgstr "%q підключено"
+
+#: ../../network/state_handler.go:248 ../../network/state_handler.go:299
+msgid "Hotspot share turned off"
+msgstr "Точка доступу вимкнена"
+
+#: ../../network/state_handler.go:301 ../../network/state_handler.go:316
+msgid "%q disconnected"
+msgstr "%q відключено"
+
+#: ../../network/state_handler.go:307
+msgid "Unable to share hotspot, please check dnsmasq settings"
+msgstr "Неможливо поділитися точкою доступу, перевірте налаштування dnsmasq"
+
+#: ../../network/state_handler.go:309
+msgid "Unable to connect %q, please keep closer to the wireless router"
+msgstr "Неможливо підключити %q, будь ласка, тримайтеся ближче до бездротового маршрутизатора"
+
+#: ../../network/state_handler.go:311
+msgid "Unable to connect %q, please check your router or net cable."
+msgstr "Не вдалося з'єднатися із %q. Будь ласка, перевірте, чи працює ваш маршрутизатор або мережевий кабель."
+
+#: ../../network/state_handler.go:314
+msgid "Connection failed, unable to connect %q, wrong password"
+msgstr "Помилка підключення, неможливо підключити %q, неправильний пароль"
+
+#: ../../network/utils_dbus_nm.go:345
+msgid "Unknown"
+msgstr "Невідомо"
+
+#: ../../network/utils_notify.go:80
+msgid "You are now offline."
+msgstr "Ви наразі оффлайн."
+
+#: ../../network/utils_notify.go:84
+msgid "Airplane mode enabled."
+msgstr "Режим аероплана увімкнено."
+
+#: ../../network/utils_notify.go:92
+msgid "Access Point mode is not supported by this device."
+msgstr "Режим Точки Доступу не підтримується цим пристроєм."
+
+#: ../../network/utils_notify.go:96 ../../network/utils_notify.go:100
+#: ../../network/utils_notify.go:103
+msgid "Network"
+msgstr "Мережа"
+
+#: ../../network/utils_notify.go:96
+msgid ""
+"The hardware switch of WLAN Card is off, please switch on as necessary."
+msgstr "Апаратний перемикач WLAN Card вимкнений, будь ласка, увімкніть його в разі потреби."
+
+#: ../../network/utils_notify.go:100
+msgid "System proxy is set successfully."
+msgstr "Системний проксі-сервер успішно настроєно."
+
+#: ../../network/utils_notify.go:103
+msgid "System proxy has been cancelled."
+msgstr "Системний проксі було скасовано."
+
+#: ../../session/power/manager_events.go:133
+msgid "Battery Critically Low"
+msgstr "Акумулятор критично розряджено"
+
+#: ../../session/power/manager_events.go:134
+msgid "Computer will suspend very soon, please plug in now"
+msgstr "Невдовзі система перейде до стану сну, будь ласка, увімкніть комп'ютер до мережі живлення"
+
+#: ../../session/power/manager_events.go:157
+#: ../../session/power/manager_events.go:164
+msgid "Battery Low"
+msgstr "Низький заряд батареї"
+
+#: ../../session/power/manager_events.go:158
+msgid "Computer will suspend soon, please plug in"
+msgstr "Невдовзі система перейде до стану сну, будь ласка, увімкніть комп'ютер до мережі живлення"
+
+#: ../../session/power/manager_events.go:165
+msgid "Battery low, please plug in"
+msgstr "Низький рівень заряду акумулятора, будь ласка, увімкніть комп'ютер до мережі живлення"
+
+#: ../../timedate/manager_ifc.go:56
+msgid "Authentication is required to set the system time."
+msgstr "Аутентифікація потрібна для встановлення системного часу."
+
+#: ../../timedate/manager_ifc.go:69
+msgid ""
+"Authentication is required to control whether network time synchronization "
+"shall be enabled."
+msgstr "Аутентифікація необхідна для того, щоб контролювати, чи має бути включена синхронізація часу мережі."
+
+#: ../../timedate/manager_ifc.go:89
+msgid ""
+"Authentication is required to control whether the RTC stores the local or "
+"UTC time."
+msgstr "Аутентифікація необхідна для контролю того, чи зберігає RTC місцевий або UTC час ."
+
+#: ../../timedate/manager_ifc.go:108
+msgid "Authentication is required to set the system timezone."
+msgstr "Аутентифікація потрібна для встановлення системного часового поясу."
