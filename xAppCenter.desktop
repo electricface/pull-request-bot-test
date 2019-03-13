@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/opt/xdroid/command-xapp-center.sh %f
+Icon=/opt/xdroid/xAppCenter.png
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=xAppCenter
+Comment=xAppCenter xDroid
+MimeType=application/vnd.android.package-archive;

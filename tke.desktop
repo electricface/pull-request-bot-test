@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=TKE
+Exec=/usr/bin/wish8.6 /usr/local/lib/tke/lib/tke.tcl -name tke -- -nosb %f
+Icon=/usr/local/lib/tke/lib/images/tke_logo.svg
+Type=Application
+Comment=Advanced code editor
+Categories=Programming;Development;Utility;TextEditor
+GenericName=Text Editor
+MimeTypes=text/plain;text/html;text/css;text/x-script.csh;text/x-fortran;text/x-java-source;text/javascript;text/x-pascal;text/pascal;text/x-script.python;text/x-asm;text/xml;text/x-script.tcl;application/x-tkethemz;application/x-tkeplugz

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=shspmax
+Name[zh_CN]=搜狐视频Max
+Name[zh_TW]=搜狐視頻Max
+Icon=apps.com.shspmax
+Categories=Video;
+Exec=/usr/share/apps.com.shspmax/run.sh

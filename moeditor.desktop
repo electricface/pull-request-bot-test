@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=Moeditor
+GenericName=Markdown Editor
+Comment=Your all-purpose markdown editor
+Categories=GTK;Utility;TextEditor;GNOME;
+Exec=moeditor %U
+Icon=moeditor
+Terminal=false
+Type=Application
+Keywords=Edit;Text;Markdown;html;
+MimeType=text/x-markdown;
+Actions=AboutDialog;SettingsDialog;
+
+[Desktop Action AboutDialog]
+Exec=moeditor --about
+Name=About Moeditor
+
+[Desktop Action SettingsDialog]
+Exec=moeditor --settings
+Name=Settings

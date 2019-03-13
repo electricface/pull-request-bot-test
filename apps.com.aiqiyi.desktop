@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=iQIYI
+Name[zh_CN]=爱奇艺
+Comment=APK application
+Exec=/lastore/framework/myarchon/archonrun --no-sandbox --silent-launch --load-and-launch-app=/lastore/apps/apps.com.aiqiyi/com.qiyi.video.intelpad.android
+Terminal=false
+Type=Application
+Icon=iqiyi
+StartupNotify=true
+Categories=Video
+
